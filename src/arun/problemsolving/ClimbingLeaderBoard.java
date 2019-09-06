@@ -1,13 +1,10 @@
-package java.arun.problemsolving;
+package arun.problemsolving;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ClimbingLeaderBoard {
 	static int n = 6;
-//	static int[] leaderboard = new int[]{100,100, 50,40,40,20,10};
-//	static int numberOfGames = 4;
-//	static int[] aliceScores = new int[]{5,25,50,120};
 	
 	static int[] leaderboard = new int[]{100,90,90,80,75,60};
 	static int numberOfGames = 5;
@@ -42,5 +39,3 @@ public class ClimbingLeaderBoard {
 		}
 	}
 }
-
-//88385 58708

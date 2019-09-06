@@ -1,6 +1,5 @@
-package java.arun.problemsolving;
+package arun.problemsolving;
 
-import java.text.ParseException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,7 +7,7 @@ public class DayOfProgrammer {
 	
 	static Map<Integer, Integer> monthDays = new HashMap<>();
 	
-	private void init() {
+	private static void init() {
 		monthDays.put(01, 31);
 		monthDays.put(02, 28);
 		monthDays.put(03, 31);
@@ -24,6 +23,7 @@ public class DayOfProgrammer {
 	}
 	
 	public static void main(String[] args)  {
+		init();
 		int year = 1918;
 		boolean leapYear = false;
 		if(year <= 1917) {
