@@ -13,7 +13,6 @@ stages:
   - stage: 'verify'
     jobs:
       - job: 'prVerify'
-        condition: eq('BuildReason', 'Manual')
         steps:
           - task: Bash@3
             inputs:
